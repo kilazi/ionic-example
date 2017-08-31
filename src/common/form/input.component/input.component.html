@@ -1,0 +1,34 @@
+
+<ion-item>
+  <span>{{title}}</span>
+  <input
+    [type]="type"
+    [(ngModel)]="value"
+    [placeholder]="placeholder"
+    [class.error]="checkInvalid()"
+  >
+  <div class="normal-error" [class.active]="checkInvalid()">{{error}}</div>
+  <!--<ion-label fixed>{{placeholder}}</ion-label>
+  <ion-input 
+    type="text"
+    [class.error]="checkInvalid()"
+    name="{{name}}"
+  ></ion-input>-->
+</ion-item>
+
+<!--
+ <ion-item>
+    <ion-label color="primary">Inline Label</ion-label>
+    <ion-input placeholder="Text Input"></ion-input>
+  </ion-item>-->
+<!--
+<ion-item>
+  <span class="normal-error" [class.active]="checkInvalid()">{{error}}</span>
+  <ion-label fixed>{{placeholder}}</ion-label>
+  <ion-input 
+    [type]="type"
+    [(ngModel)]="value"
+    [class.error]="checkInvalid()"
+    name="{{name}}"
+  ></ion-input>
+</ion-item>-->

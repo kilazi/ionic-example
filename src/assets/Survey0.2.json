@@ -1,0 +1,780 @@
+{
+	"type": "panel",
+	"name": "panel1",
+	"title": "CPE and Bundled Products Site Survey Form",
+	"elements": [{
+			"type": "image",
+			"name": "centuryLinkLogo",
+			"text": "Century Link",
+			"url": "https://dwglogo.com/wp-content/uploads/2016/06/CenturyLink-Symbol-Logo-300x206.png"
+		},
+		{
+			"type": "comment",
+			"name": "CenturyLinkLogoText",
+			"text": "CenturyLink"
+		},
+		{
+			"type": "comment",
+			"name": "Comment1",
+			"text": "CPE and Bundled Products Site Survey Form  (Version 1.6, 09/14/15)"
+		},
+		{
+			"type": "comment",
+			"name": "Comment2",
+			"text": "(Please complete all fields. )"
+		},
+		{
+			"type": "html",
+			"html": "<a href=\"http://toolbox.corp.intranet/nsl_handbook/sites/default/files/article/2261/FO-JA-2013-10-007.pdf\">Click here to view the Site Survey Process</a>",
+			"name": "html1",
+			"startWithNewLine": "false"
+		},
+		{
+			"type": "panel",
+			"name": "panel2",
+			"title": "Form Completed By",
+			"elements": [{
+					"type": "text",
+					"isRequired": true,
+					"name": "techName",
+					"placeHolder": "John Doe",
+					"title": "Tech Name:"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Date",
+					"placeHolder": "MM/DD/YYYY",
+					"title": "Date:",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "email",
+					"isRequired": true,
+					"name": "techEmail",
+					"placeHolder": "abc@xyz.com",
+					"title": "Tech Email:"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "SEName",
+					"placeHolder": "John Doe",
+					"title": "SE Name:",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "tel",
+					"isRequired": true,
+					"name": "Phone1",
+					"placeHolder": "+1-732-666-1111",
+					"title": "Phone #"
+				},
+				{
+					"type": "tel",
+					"isRequired": true,
+					"name": "Phone2",
+					"title": "SE Phone #",
+					"placeHolder": "+1-732-666-1112",
+					"startWithNewLine": "false"
+				},
+
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Fax",
+					"placeHolder": "+1-732-666-1113",
+					"title": "Fax #:"
+				},
+				{
+					"type": "email",
+					"isRequired": true,
+					"name": "SEEmail",
+					"placeHolder": "abc@xyz.com",
+					"title": "SE Email:",
+					"startWithNewLine": "false"
+				}
+
+			]
+
+		},
+		{
+			"type": "panel",
+			"name": "panel3",
+			"title": "Basic Customer Information",
+			"elements": [{
+					"type": "text",
+					"isRequired": true,
+					"name": "CompanyName",
+					"placeHolder": "ABC Corp",
+					"title": "Company Name:"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "ContactName",
+					"placeHolder": "John Doe",
+					"title": "Contact Name:",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Address",
+					"placeHolder": "Address line 1",
+					"title": "Address:"
+				},
+				{
+					"type": "tel",
+					"isRequired": true,
+					"name": "Phone3",
+					"title": "Contact Number",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "CityStateZip",
+					"placeHolder": "City, State, Zip",
+					"title": "City State Zip:"
+				},
+				{
+					"type": "email",
+					"isRequired": true,
+					"name": "ContactEmail",
+					"placeHolder": "abc@xyz.com",
+					"title": "Contact e-mail:",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "tel",
+					"isRequired": true,
+					"name": "Phone4",
+					"placeHolder": "+1-732-666-1113",
+					"title": "Main Phone #"
+				}
+			]
+		},
+		{
+			"type": "panel",
+			"name": "panel4",
+			"title": "Existing CPE",
+			"elements": [{
+					"type": "text",
+					"isRequired": true,
+					"name": "SystemType",
+					"placeHolder": "System Type",
+					"title": "System Type:"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "SystemAgeNumberOfYears",
+					"placeHolder": "System Age (# Years)",
+					"title": "System Age (years):",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "TotalNumberOfStations",
+					"placeHolder": "Total # of Stations",
+					"title": "Total # of Stations:",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "TotalNumberOfLines",
+					"placeHolder": "Total # of lines",
+					"title": "Total # of lines:",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "SystemManufacturer",
+					"placeHolder": "System Manufacturer",
+					"title": "System Mfg:"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "SystemType",
+					"placeHolder": "Type of System",
+					"title": "System Type:",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Number of analog stations",
+					"placeHolder": "Number of analog stations",
+					"title": "# of analog station:",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "NumberOfStandardTrunks",
+					"placeHolder": "Number of standard trunks",
+					"title": "# of standard trunks:"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "DID Trunks",
+					"placeHolder": "DIDTrunks",
+					"title": "DID Trunks:",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "TieTrunks",
+					"placeHolder": "Tie Trunks",
+					"title": "Tie Trunks:",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "TypeOfTrunks",
+					"placeHolder": "Other Type of trunks",
+					"title": "Other Types of trunks:",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Quantity",
+					"placeHolder": "Quantity",
+					"title": "Qty:",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "NumberOfB1Lines",
+					"placeHolder": "Numeber of B1 Lines",
+					"title": "# of B1 lines (fax/modem):"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "NumberOfT1s",
+					"placeHolder": "Number of T1s",
+					"title": "# of T1s:",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "TotalNumberOfTrunks",
+					"placeHolder": "Total number of trunks",
+					"title": "Total # of trunks:",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "VoiceMailType",
+					"placeHolder": "Voice mail-type",
+					"title": "Voice mail type:"
+				},
+				{
+					"type": "test",
+					"isRequired": true,
+					"name": "VoiceMailManufacturer",
+					"placeHolder": "Voice mail manufacturer",
+					"title": "Voice Mail Mfg:",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "InternalToSystem",
+					"placeHolder": "Internal to system",
+					"title": "Internal to system:",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "ExternalToSystem",
+					"placeHolder": "External to system",
+					"title": "External to system:",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "comment",
+					"name": "Comment3",
+					"text": "Does the customer have any analog or non-standard equipment that will need to be integrated to their system?"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition1",
+					"placeHolder": "(Y/N)",
+					"title": "(example: paging system, cordless or wall mounted phones, external ringers, door openers) If yes explain below."
+				},
+				{
+					"type": "text",
+					"name": "CommentText",
+					"text": "(Enter the comment here)",
+					"line": "multi",
+					"visibleIf": [{
+						"elementName": "Condition1YesStatement",
+						"comparison": ["eq", "Y"]
+					}]
+				}
+			]
+		},
+		{
+			"type": "panel",
+			"name": "Panel5",
+			"title": "Location Details (wiring details)",
+			"elements": [{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition2",
+					"placeHolder": "Y/N",
+					"title": "Is Existing System in an Environmentally Controlled Room?"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition2YesStatement",
+					"placeHolder": "Y/N",
+					"title": "If YES is there adequate room to install new Router(s)/Switch(es)?",
+					"visibleIf": [{
+						"elementName": "Condition2",
+						"comparison": ["eq", "Y"]
+					}]
+				},
+				{
+					"type": "comment",
+					"name": "Comment5",
+					"text": "NEED MORE SPACE ON BACKBOARD",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"name": "Comment6Text",
+					"text": "If NO please explain and include details if customer has an Environmentally Controlled room: ",
+					"visibleIf": [{
+						"elementName": "Condition2NoStatement",
+						"comparison": ["eq", "N"]
+					}]
+				},
+				{
+					"type": "text",
+					"name": "Comment7Text",
+					"text": "(enter comments here)",
+					"line": "multi",
+					"visibleIf": [{
+						"elementName": "Condition2NoStatement",
+						"comparison": ["eq", "N"]
+					}]
+				},
+
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition3",
+					"placeHolder": "Y/N",
+					"title": "Is there a dedicated business line for a fire alarm?"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition3YesStatement",
+					"placeHolder": "Numbers",
+					"title": "If yes provide the number(s) here:",
+					"visibleIf": [{
+						"elementName": "Condition3YesStatement",
+						"comparison": ["eq", "Y"]
+					}],
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition4",
+					"placeHolder": "Y/N",
+					"title": "Is there a proper ground to the main building power round in the switch room?"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition5",
+					"placeHolder": "Y/N",
+					"title": "Does the customer have a 3/4 plywood backboard on the wall to which the CPE will be mounted?"
+				},
+				{
+					"type": "comment",
+					"name": "Comment8",
+					"text": "If installing system in new room is there adequate electrical outlets and are they on a separate (dedicated) circuit?"
+				},
+				{
+					"type": "text",
+					"name": "Comment9Text",
+					"text": "(enter comments here)",
+					"line": "multi"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition6",
+					"placeHolder": "Y/N",
+					"title": "Is there room to install a 19 rack?"
+				},
+				{
+					"type": "comment",
+					"name": "Comment10",
+					"text": "If installing in new room what will it take to tie into the Old MDF?"
+				},
+				{
+					"type": "comment",
+					"name": "Comment11",
+					"text": "(enter comments here)",
+					"line": "multi"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition7",
+					"placeHolder": "Y/N",
+					"title": "Does the customer have a floor plan/site map?"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition8",
+					"placeHolder": "Y/N",
+					"title": "Is CAT5/5e/6 wiring in place for every phone? If yes indicate if single or dual drops. If no explain below."
+				},
+				{
+					"type": "text",
+					"name": "Comment12Text",
+					"text": "(enter comments here)",
+					"line": "multi",
+					"visibleIf": [{
+						"elementName": "Condition8NoStatement",
+						"comparison": ["eq", "N"]
+					}]
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition9",
+					"placeHolder": "Y/N",
+					"title": "Does the building have drop ceilings? If yes explain below."
+				},
+				{
+					"type": "comment",
+					"name": "Comment13",
+					"text": "EXCEPT OFFICE AND KITCHEN",
+					"line": "multi",
+					"visibleIf": [{
+						"elementName": "Condition9YesStatement",
+						"comparison": ["eq", "Y"]
+					}]
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition10",
+					"placeHolder": "Y/N",
+					"title": "Does the demarc need to be extended (Must be w/i 10 feet of router location)?  If yes explain below."
+				},
+				{
+					"type": "comment",
+					"name": "Comment14",
+					"text": "(enter comments here)",
+					"line": "multi",
+					"visibleIf": [{
+						"elementName": "Condition10YesStatement",
+						"comparison": ["eq", "Y"]
+					}]
+				},
+				{
+					"type": "comment",
+					"name": "Comment15",
+					"text": "Include other concerns or recommendations on wiring below."
+				},
+				{
+					"type": "comment",
+					"name": "Comment16",
+					"text": "WATER UNDER RACK",
+					"line": "multi"
+				}
+			]
+		},
+		{
+			"type": "panel",
+			"name": "panel6",
+			"title": "LAN/WAN Details",
+			"elements": [{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition11",
+					"placeHolder": "Y/N",
+					"title": "Does the customer have a LAN/WAN?"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition12",
+					"placeHolder": "Y/N",
+					"title": "if yes - Wireless?",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition13",
+					"placeHolder": "Y/N",
+					"title": "Cat 5?",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition14",
+					"placeHolder": "Y/N",
+					"title": "Cat 3?",
+					"startWithNewLine": "false"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition15",
+					"placeHolder": "Y/N",
+					"title": "Is the customer using hubs or switches and are they PoE or Non-PoE?  If yes indicate Mfg & Model #'s below."
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Statement1",
+					"placeHolder": "CISCO 48 PORTS",
+					"title": "Switch Mfg and Model #:"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Statement2",
+					"placeHolder": "(enter info here)",
+					"title": "Hub Mfg and Model #:"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition16",
+					"placeHolder": "Y/N",
+					"title": "Does the customer have a firewall?"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition16YesStatement",
+					"placeHolder": "DON'T KNOW",
+					"title": "if yes, Mfg & Model",
+					"startWithNewLine": "false",
+					"visibleIf": [{
+						"elementName": "Condition16",
+						"comparison": ["eq", "Y"]
+					}]
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition17",
+					"placeHolder": "Y/N",
+					"title": "Is the customer using routers?"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition17YesStatement",
+					"placeHolder": "(enter info here)",
+					"title": "if yes, Mfg & Model",
+					"startWithNewLine": "false",
+					"visibleIf": [{
+						"elementName": "Condition17",
+						"comparison": ["eq", "Y"]
+					}]
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Statement3",
+					"placeHolder": "AT&T",
+					"title": "What type of circuit is feed the WAN?"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition18",
+					"placeHolder": "Y/N",
+					"title": "Is LAN wiring terminated on patch panels?"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition18YesStatement",
+					"placeHolder": "Y/N",
+					"title": "if yes, are patch on racks with room to add?",
+					"startWithNewLine": "false",
+					"visibleIf": [{
+						"elementName": "Condition18",
+						"comparison": ["eq", "Y"]
+					}]
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition19",
+					"placeHolder": "Y/N",
+					"title": "Is there a LAN connection in either existing location and/or new location?"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition20",
+					"placeHolder": "Y/N",
+					"title": "Is the proposed or existing location in the same location as the LAN room?"
+
+				},
+				{
+					"type": "comment",
+					"name": "Comment17",
+					"text": "Are there any other network devices (fax, printers, registers, time clocks, patron PC's, etc.)?  If yes include how many of each and indicate if they have home runs."
+				},
+
+				{
+					"type": "comment",
+					"name": "Comment18",
+					"text": "HP LASERJET 1536 DNF MFP, AVAYA PHONES",
+					"line": "multi",
+					"visibleIf": [{
+						"elementName": "Comment17",
+						"comparison": ["eq", "eq"]
+					}]
+				}
+			]
+		},
+		{
+			"type": "panel",
+			"name": "Panel7",
+			"title": "WAP Deployments",
+			"elements": [{
+					"type": "comment",
+					"name": "Comment19",
+					"text": "Wireless Access Point Deployment"
+				},
+				{
+					"type": "comment",
+					"name": "Comment20",
+					"text": "A single Access Point (AP) can satisfactorily serve no more than approximately 20 concurrent clients."
+				},
+				{
+					"type": "comment",
+					"name": "Comment21",
+					"text": "The effective limit could be more or less depending on required data throughput requirements."
+				},
+				{
+					"type": "comment",
+					"name": "Comment22",
+					"text": "This is not related to “client associations”, which can be 200 or more."
+				},
+				{
+					"type": "comment",
+					"name": "Comment23",
+					"text": "The single AP should be located as closely as possible to the most important or highest-density client areas."
+				},
+				{
+					"type": "comment",
+					"name": "Comment24",
+					"text": "If the single AP isn’t able to service all areas, it is recommended to place additional APs rather than maximizing the transmit (Tx) power of the single AP."
+				},
+				{
+					"type": "comment",
+					"name": "Comment25",
+					"text": "Running APs at high Tx power usually creates co-channel interference problems with neighboring APs –  yours and your neighbors’."
+				},
+				{
+					"type": "comment",
+					"name": "Comment26",
+					"text": "For optimum performance an omnidirectional AP *must* be mounted horizontally, and in most cases should be mounted from 8’ to 9’ above the floor to a drop-ceiling rail."
+				},
+				{
+					"type": "comment",
+					"name": "Comment27",
+					"text": "Mounting on a shelf, or under/on a table, or some other horizontal surface can be effective."
+				},
+				{
+					"type": "comment",
+					"name": "Comment28",
+					"text": "Mounting above ceiling tiles is not recommended, due to signal scattering caused by the wires and rails; some types of ceiling tiles have foil lining, which scatters the signal."
+				},
+
+				{
+					"type": "comment",
+					"name": "Comment29",
+					"text": "An AP should be mounted away from large metal surfaces, beams, conduits, ducts, etc."
+				},
+				{
+					"type": "comment",
+					"name": "Comment30",
+					"text": "Typically, avoid placing APs in hallways; avoid having multiple APs in sight of each other; be mindful of APs on floors above and below when determining placement and channel selection. "
+				},
+				{
+					"type": "comment",
+					"name": "Comment31",
+					"text": "Keep in mind that “foreign” APs belonging to neighboring WLANs will impact your WLAN.  Conversely, your APs will impact those of your neighbors"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "Condition21",
+					"placeHolder": "Y/N",
+					"title": "Is a Cat 5/5e/6 cable in place for the wireless access points?"
+
+				},
+				{
+					"type": "comment",
+					"name": "Comment32",
+					"text": "NO ACESS POINT"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "WallType",
+					"placeHolder": "Types of Walls",
+					"title": "What types of walls are in this location (Concrete, drywall etc)? "
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "CeilingType",
+					"placeHolder": "Types of Ceilings",
+					"title": "What types of ceilings are in this location (Drywall, drop pad, etc)?"
+				},
+				{
+					"type": "text",
+					"isRequired": true,
+					"name": "NumberOfRooms",
+					"placeHolder": "Number of Rooms",
+					"title": "How many rooms are in this location? (if Customer has Floor Plan/Site Map please attach when submitting Survey)"
+				}
+			]
+		}
+
+
+
+
+
+
+	]
+}

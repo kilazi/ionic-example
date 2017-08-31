@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      {{survey?.title}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ng-template ngFor let-i="index" let-c="count" let-element [ngForOf]="survey?.elements">
+    <show-image *ngIf="element.type == 'image'" [image]="element.url" [text]="element.text"></show-image>
+    <show-comment *ngIf="element.type == 'comment'" [text]="element.text"></show-comment>
+    <show-html *ngIf="element.type == 'html'" [html]="element.html"></show-html>
+    <show-panel *ngIf="element.type == 'panel'" [elements]="element.elements" [title]="element.title" [(valid)]="validation[element.name]"></show-panel>
+  </ng-template>
+
+  <button ion-button full (click)="try()">TRY</button>
+
+</ion-content>

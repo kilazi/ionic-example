@@ -1,0 +1,17 @@
+<h2>{{title}}</h2>
+<form [formGroup]="panelForm">
+    <ng-template ngFor let-i="index" let-c="count" let-element [ngForOf]="elements">
+        <app-input *ngIf="element.type=='text' || element.type=='tel' || element.type=='email'"
+            [controls]="panelForm.controls[element.name]"
+            [placeholder]="element.placeHolder"
+            [title]="element.title"
+            [error]="formErrors[element.name]" 
+            [type]="element.type"
+            [name]="element.name"
+            formControlName="{{element.name}}"
+            ></app-input>  
+        <show-image *ngIf="element.type == 'image'" [image]="element.url" [text]="element.text"></show-image>
+        <show-comment *ngIf="element.type == 'comment'" [text]="element.text"></show-comment>
+        <show-html *ngIf="element.type == 'html'" [html]="element.html"></show-html>
+    </ng-template>
+</form>
